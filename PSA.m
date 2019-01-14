@@ -1,4 +1,4 @@
-%%  い  LXX  い  Groover section 2.4  い  p. 53-57
+%%  造造  LXX  造造  Groover section 2.4  造造  p. 53-57
 Q_j = 1;    % [products/yr] % Annual quantity of style j
 P = 1;                      % Total number of different product styles
 Q_f = P * Q;                % Annual quantity of all products made in the factory
@@ -14,7 +14,7 @@ n_of = sum(Q_j, j, 1, P) * sum(n_ojk, k, 1, n_pj) % [ops/yr] % total number of o
 % See equation 2.6 to 2.10 for different approaches to find these values if
 % a reverse sitatuion is given.
 
-%%  い  L06  い  Groover chapter 3  い  p. 63-66
+%%  造造  L06  造造  Groover chapter 3  造造  p. 63-66
 
 % Cycle time
 Q = 1;                             % Quantity
@@ -41,7 +41,7 @@ R_c = 60 / T_c;         % [pc/hr]     % Operation cycle rate of the machine - as
 T_c = T_r + Max(T_o);   % [min/cycle] % Cycle time of production line where T_o is the bottle neck station
 R_c = 60 / T_c;
 
-%%  い  L06  い  Groover chapter 3
+%%  造造  L06  造造  Groover chapter 3
 
 % Availability p. 66-67
 MTBF = 1;                   % [hr] % Mean time between failures
@@ -113,7 +113,7 @@ C_pc = C_m + sum(C_ui, i, 1, n_o) % [$/pc] % Cost per piece
 
 
 
-%%  い  L07  い  Groover chapter 14
+%%  造造  L07  造造  Groover chapter 14
 
 % Parts Storage and Automatic Parts Transfer: p. 386
 n_pc = 1;        % [pc]     % Number of parts that can be stored
@@ -136,7 +136,7 @@ Q_j = Q_oj * (1 - q_j)   % Quantity of good units made in the process
 WL = TT_su + sum((Q_j * T_cj)/(1 - q_j), dim); % Workload 
 
 
-% い Single-model assembly lines only
+% 造造 Single-model assembly lines only
 
 
 % Required hourly production rate: p. 414-415
@@ -173,7 +173,7 @@ w = T_wc / T_c
 
 
 
-%%  い  L14  い  Groover chapter 25
+%%  造造  L14  造造  Groover chapter 25
 
 % Cost of holding invetory: p. 756
 h = 1;           % [rate/yr]  % Holding cost rate (interest + storage cost rate)
@@ -196,7 +196,7 @@ EOQ = sqrt((2 * D_a * C_su) / C_h)         % [pc/batch or pc/order] % Economic o
 
 
 
-%%  い  L14  い  Groover chapter 26
+%%  造造  L14  造造  Groover chapter 26
 
 % Takt Time: p. 784-785
 EOT = 1;             % [min]    % Effective daily operating time

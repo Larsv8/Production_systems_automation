@@ -1,4 +1,5 @@
 %%  ¤¤  LXX  ¤¤  Groover section 2.4  ¤¤  p. 53-57
+
 Q_j = 1;    % [products/yr] % Annual quantity of style j
 P = 1;                      % Total number of different product styles
 Q_f = P * Q;                % Annual quantity of all products made in the factory
